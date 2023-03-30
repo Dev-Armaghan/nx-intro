@@ -28,20 +28,20 @@
   },
   "projects": {
     "feature-search": {
-      "tags": []
+      "tags": ["feature"]
     },
     "feature-upgrade": {
-      "tags": []
+      "tags": ["feature"]
     },
     "flight-app": {
-      "tags": []
+      "tags": ["app"]
     },
     "flight-app-e2e": {
       "tags": [],
       "implicitDependencies": ["flight-app"]
     },
     "flight-data": {
-      "tags": []
+      "tags": ["data"]
     }
   }
 }
