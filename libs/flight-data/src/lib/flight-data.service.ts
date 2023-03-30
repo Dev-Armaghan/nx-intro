@@ -8,7 +8,6 @@ import { Flight } from './model/flight';
 export class FlightDataService {
 
     load(): Observable<Flight[]> {
-
         return of([
           { id: 1, from: 'Frankfurt', to: 'Mallorca', date: new Date().toISOString() },
           { id: 2, from: 'Frankfurt', to: 'Barcelona', date: new Date().toISOString() },
